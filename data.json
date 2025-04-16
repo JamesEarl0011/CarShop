@@ -1,0 +1,130 @@
+[
+  {
+    "name": "Bentley Continental GT",
+    "description": "The Bentley Continental GT is a luxurious grand tourer that combines exceptional performance with refined elegance. Its design is influenced by the 1952 R-Type Continental, featuring a sleek bonnet and striking grille. Inside, the car boasts advanced seating technology and a cutting-edge infotainment system, including a 12.3-inch rotating display that can show analog gauges or integrate seamlessly into the dashboard.",
+    "price": "₱12,569,925",
+    "imagePath": "/images/bentley-continental.png",
+    "glbPath": "/models/bentley-continental.glb",
+    "id": "1"
+  },
+  {
+    "name": "BMW Competition",
+    "description": "The BMW M3 Competition Sedan is a performance-focused version of the 3 Series, featuring a 3.0-liter M TwinPower Turbo inline 6-cylinder engine that generates 503 horsepower. It can go from 0 to 60 mph in around 3.8 seconds, providing an exciting driving experience. This model combines speed, power, and precision for those seeking high performance.",
+    "price": "₱4,760,000",
+    "imagePath": "/images/bmw-continental.png",
+    "glbPath": "/models/bmw-continental.glb",
+    "id": "2"
+  },
+  {
+    "name": "BMW M4",
+    "description": "The BMW M4 is a high-performance sports coupe that combines thrilling speed with sophisticated luxury. It features a 3.0-liter twin-turbo inline-six engine, producing 473 horsepower in the standard model and 503 horsepower in the M4 Competition. This car offers an exceptional driving experience with powerful performance and refined design.",
+    "price": "₱4,012,800",
+    "imagePath": "/images/bmw-m4.png",
+    "glbPath": "/models/bmw-m4.glb",
+    "id": "3"
+  },
+  {
+    "name": "Dodge Challenger",
+    "description": "The Dodge Challenger is a classic American muscle car, celebrated for its bold design and powerful performance. It offers a range of engine options, from a V6 to the 717-horsepower V8s in the R/T and SRT Hellcat models, enabling it to accelerate from 0-60 mph in under 4 seconds. Along with its impressive power, the Challenger also features a spacious interior, blending thrilling performance with everyday comfort.",
+    "price": "₱1,680,000",
+    "imagePath": "/images/dodge-challenger.png",
+    "glbPath": "/models/dodge-challenger.glb",
+    "id": "4"
+  },
+  {
+    "name": "Dodge SRT Tomahawk",
+    "description": "​The Dodge SRT Tomahawk is a fictional concept car created by Dodge for the Vision Gran Turismo project, featured in the Gran Turismo video game series. Released in 2015, the Tomahawk showcases Dodge’s futuristic supercar vision, with a sleek and high-performance design. It offers players an exciting glimpse into what Dodge envisions for the future of automotive technology and performance.",
+    "price": "₱24,500,000",
+    "imagePath": "/images/dodge-srt-tomahawk.png",
+    "glbPath": "/models/dodge-srt-tomahawk.glb",
+    "id": "5"
+  },
+  {
+    "name": "Dodge Viper",
+    "description": "The Dodge Viper is an iconic American sports car, known for its bold design and raw performance. Introduced in 1992, it features a powerful V10 engine, producing between 400 and 645 horsepower, allowing it to accelerate from 0-60 mph in under 4 seconds. With each generation, the Viper has refined its handling, aerodynamics, and interior comfort while maintaining its aggressive speed and racing-inspired features.",
+    "price": "₱6,000,000",
+    "imagePath": "/images/dodge-viper.png",
+    "glbPath": "/models/dodge-viper.glb",
+    "id": "6"
+  },
+  {
+    "name": "Lexus GX",
+    "description": "The Lexus GX is a luxury SUV that blends impressive off-road capability with refined comfort and a premium interior. Powered by a 4.6-liter V8 engine producing around 301 horsepower, it excels in towing and rough terrain performance while offering advanced features like adaptive suspension and off-road traction control. Inside, the GX offers a spacious, high-quality cabin with leather upholstery, a premium audio system, and a suite of safety features, making it both versatile and comfortable for any adventure.",
+    "price": "₱3,300,000",
+    "imagePath": "/images/lexus-gx.png",
+    "glbPath": "/models/lexus-gx.glb",
+    "id": "7"
+  },
+  {
+    "name": "Lexus SC430 GT500",
+    "description": "The Lexus SC430 GT500 is a race car variant of the Lexus SC430, developed for Japan's Super GT series. Competing in the GT500 class from 2006 to 2013, it replaced the fourth-generation Toyota Supra as Toyota's main entry in the competition. The SC430 GT500 is known for its advanced engineering and performance in one of the most challenging motorsport events.",
+    "price": "₱18,500,000",
+    "imagePath": "/images/lexus-sc-gt500.png",
+    "glbPath": "/models/lexus-sc-gt500.glb",
+    "id": "8"
+  },
+  {
+    "name": "Mercedes-Benz 190E",
+    "description": "The Mercedes-Benz 190E, produced from 1982 to 1993, is a compact luxury sedan known for its solid build and elegant design. It offered a range of engine options, including a performance-oriented 2.5L 16-valve engine developed with Cosworth, and featured a rear-wheel-drive layout for excellent handling. With innovative safety features like ABS and a rigid body structure, the 190E gained a reputation for reliability and durability, making it one of the most popular models in Mercedes-Benz's lineup.",
+    "price": "₱550,000",
+    "imagePath": "/images/mercedes-benz-190e.png",
+    "glbPath": "/models/mercedes-benz-190e.glb",
+    "id": "9"
+  },
+  {
+    "name": "Nissan Cedric",
+    "description": "The Nissan Cedric, produced since 1960, is a full-size luxury sedan primarily marketed in Japan, known for its blend of comfort, performance, and sophistication. Over the years, it offered a spacious interior, smooth ride, and stylish design, making it popular among executives and families. With a variety of engine options and later models featuring advanced technology, the Cedric rivaled the Toyota Crown and was also sold as the Nissan Gloria in certain markets.",
+    "price": "₱440,000",
+    "imagePath": "/images/nissan-cedric.png",
+    "glbPath": "/models/nissan-cedric.glb",
+    "id": "10"
+  },
+  {
+    "name": "Nissan GT-R",
+    "description": "The Nissan GT-R is a high-performance sports car, renowned for its speed, advanced technology, and iconic design. Initially introduced as the Skyline GT-R in 1969, it gained fame in motorsports and evolved into the modern R35 GT-R in 2007, featuring a 3.8-liter twin-turbo V6 engine producing up to 565 horsepower in the standard model and 600 horsepower in the Nismo variant. With an advanced all-wheel-drive system, dual-clutch 6-speed transmission, and precise handling, the GT-R is a formidable competitor on both roads and tracks, equipped with cutting-edge tech like the Multi-Function Display and an advanced chassis control system.",
+    "price": "₱6,440,000",
+    "imagePath": "/images/nissan-gtr.png",
+    "glbPath": "/models/nissan-gtr.glb",
+    "id": "11"
+  },
+  {
+    "name": "Nissan GT-R LM Nismo",
+    "description": "The Nissan GT-R LM Nismo, introduced in 2015, was developed for the prestigious 24 Hours of Le Mans, featuring a unique front-engine, front-wheel-drive layout that set it apart from traditional Le Mans prototypes. Powered by a 3.0-liter twin-turbo V6 engine producing over 500 horsepower, it was built to compete in the LMP1 class, the top category of the race. With advanced aerodynamics, a lightweight structure, and hybrid technology, the GT-R LM Nismo aimed to deliver enhanced efficiency and speed on the track.",
+    "price": "₱560,000,000",
+    "imagePath": "/images/nissan-gtr-lm-nismo.png",
+    "glbPath": "/models/nissan-gtr-lm-nismo.glb",
+    "id": "12"
+  },
+  {
+    "name": "Nissan GT-R Nismo",
+    "description": "The Nissan GT-R Nismo is the high-performance variant of the legendary Nissan GT-R, designed for track enthusiasts and sports car lovers. Powered by a 3.8-liter twin-turbo V6 engine producing 600 horsepower and 481 lb-ft of torque, it stands as one of the most powerful cars in its class. Equipped with a 6-speed dual-clutch transmission and an advanced all-wheel-drive system, the GT-R Nismo delivers exceptional acceleration and handling, making it a formidable force on both the road and the track.",
+    "price": "₱8,400,000",
+    "imagePath": "/images/nissan-gtr-nismo.png",
+    "glbPath": "/models/nissan-gtr-nismo.glb",
+    "id": "13"
+  },
+  {
+    "name": "Nissan Skyline GT-R",
+    "description": "The Nissan Skyline GT-R is a legendary sports car, celebrated for its performance and engineering, with iconic status among automotive enthusiasts. Initially introduced in 1969, the R32 model, released in 1989, brought the Skyline GT-R to global fame, especially for its dominance in motorsports. Known as 'Godzilla,' the R32 GT-R became a powerful force in Japan's Super GT series, solidifying its reputation on the track.",
+    "price": "₱1,680,000",
+    "imagePath": "/images/nissan-skyline-gtr",
+    "glbPath": "/models/nissan-skyline-gtr",
+    "id": "14"
+  },
+  {
+    "name": "Porsche 917K",
+    "description": "The Porsche 917K is a legendary race car that became a key part of Porsche's motorsport history. Introduced in the late 1960s, it was designed for endurance racing, particularly the 24 Hours of Le Mans, as part of the Porsche 917 series. The 'K' stands for 'Kurz' (short), referring to its shorter wheelbase, which enhanced handling and agility, making it a formidable contender on the track.",
+    "price": "₱940,000,000",
+    "imagePath": "/images/porsche-917k-lm.png",
+    "glbPath": "/models/porsche-917k-lm.glb",
+    "id": "15"
+  },
+  {
+    "name": "Rolls Royce Silver Shadow",
+    "description": "The Rolls-Royce Silver Shadow was a groundbreaking model, being the first to feature a fully integrated monocoque body. Powered by a 6.2-liter V8 engine, it was known for its smooth performance and exceptional ride quality. With modern features like power-assisted steering and air conditioning, the Silver Shadow became immensely popular and is now considered a symbol of luxury and refinement.",
+    "price": "₱1,360,000",
+    "imagePath": "/images/rolls-royce-silver-shadow.png",
+    "glbPath": "/models/rolls-royce-silver-shadow.glb",
+    "id": "16"
+  }
+]
