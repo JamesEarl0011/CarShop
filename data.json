@@ -5,14 +5,28 @@
     "price": "₱12,569,925",
     "imagePath": "/images/bentley-continental.png",
     "glbPath": "/models/bentley-continental.glb",
+    "position": [
+      {
+        "x": -80,
+        "y": 5,
+        "z": -95
+      }
+    ],
     "id": "1"
   },
   {
     "name": "BMW Competition",
     "description": "The BMW M3 Competition Sedan is a performance-focused version of the 3 Series, featuring a 3.0-liter M TwinPower Turbo inline 6-cylinder engine that generates 503 horsepower. It can go from 0 to 60 mph in around 3.8 seconds, providing an exciting driving experience. This model combines speed, power, and precision for those seeking high performance.",
     "price": "₱4,760,000",
-    "imagePath": "/images/bmw-continental.png",
-    "glbPath": "/models/bmw-continental.glb",
+    "imagePath": "/images/bmw-competition.png",
+    "glbPath": "/models/bmw-competition.glb",
+    "position": [
+      {
+        "x": 17,
+        "y": 5,
+        "z": 20
+      }
+    ],
     "id": "2"
   },
   {
@@ -21,6 +35,13 @@
     "price": "₱4,012,800",
     "imagePath": "/images/bmw-m4.png",
     "glbPath": "/models/bmw-m4.glb",
+    "position": [
+      {
+        "x": 17,
+        "y": 5,
+        "z": 20
+      }
+    ],
     "id": "3"
   },
   {
@@ -29,6 +50,13 @@
     "price": "₱1,680,000",
     "imagePath": "/images/dodge-challenger.png",
     "glbPath": "/models/dodge-challenger.glb",
+    "position": [
+      {
+        "x": 17,
+        "y": 5,
+        "z": 20
+      }
+    ],
     "id": "4"
   },
   {
@@ -37,6 +65,13 @@
     "price": "₱24,500,000",
     "imagePath": "/images/dodge-srt-tomahawk.png",
     "glbPath": "/models/dodge-srt-tomahawk.glb",
+    "position": [
+      {
+        "x": 17,
+        "y": 5,
+        "z": 20
+      }
+    ],
     "id": "5"
   },
   {
@@ -45,6 +80,13 @@
     "price": "₱6,000,000",
     "imagePath": "/images/dodge-viper.png",
     "glbPath": "/models/dodge-viper.glb",
+    "position": [
+      {
+        "x": 17,
+        "y": 5,
+        "z": 20
+      }
+    ],
     "id": "6"
   },
   {
@@ -53,6 +95,13 @@
     "price": "₱3,300,000",
     "imagePath": "/images/lexus-gx.png",
     "glbPath": "/models/lexus-gx.glb",
+    "position": [
+      {
+        "x": 17,
+        "y": 5,
+        "z": 20
+      }
+    ],
     "id": "7"
   },
   {
@@ -61,6 +110,13 @@
     "price": "₱18,500,000",
     "imagePath": "/images/lexus-sc-gt500.png",
     "glbPath": "/models/lexus-sc-gt500.glb",
+    "position": [
+      {
+        "x": 17,
+        "y": 5,
+        "z": 20
+      }
+    ],
     "id": "8"
   },
   {
@@ -69,6 +125,13 @@
     "price": "₱550,000",
     "imagePath": "/images/mercedes-benz-190e.png",
     "glbPath": "/models/mercedes-benz-190e.glb",
+    "position": [
+      {
+        "x": 17,
+        "y": 5,
+        "z": 20
+      }
+    ],
     "id": "9"
   },
   {
@@ -77,6 +140,13 @@
     "price": "₱440,000",
     "imagePath": "/images/nissan-cedric.png",
     "glbPath": "/models/nissan-cedric.glb",
+    "position": [
+      {
+        "x": -80,
+        "y": 5,
+        "z": -95
+      }
+    ],
     "id": "10"
   },
   {
@@ -85,6 +155,13 @@
     "price": "₱6,440,000",
     "imagePath": "/images/nissan-gtr.png",
     "glbPath": "/models/nissan-gtr.glb",
+    "position": [
+      {
+        "x": -80,
+        "y": 5,
+        "z": -95
+      }
+    ],
     "id": "11"
   },
   {
@@ -93,6 +170,13 @@
     "price": "₱560,000,000",
     "imagePath": "/images/nissan-gtr-lm-nismo.png",
     "glbPath": "/models/nissan-gtr-lm-nismo.glb",
+    "position": [
+      {
+        "x": 17,
+        "y": 5,
+        "z": 20
+      }
+    ],
     "id": "12"
   },
   {
@@ -101,14 +185,28 @@
     "price": "₱8,400,000",
     "imagePath": "/images/nissan-gtr-nismo.png",
     "glbPath": "/models/nissan-gtr-nismo.glb",
+    "position": [
+      {
+        "x": 17,
+        "y": 5,
+        "z": 20
+      }
+    ],
     "id": "13"
   },
   {
     "name": "Nissan Skyline GT-R",
     "description": "The Nissan Skyline GT-R is a legendary sports car, celebrated for its performance and engineering, with iconic status among automotive enthusiasts. Initially introduced in 1969, the R32 model, released in 1989, brought the Skyline GT-R to global fame, especially for its dominance in motorsports. Known as 'Godzilla,' the R32 GT-R became a powerful force in Japan's Super GT series, solidifying its reputation on the track.",
     "price": "₱1,680,000",
-    "imagePath": "/images/nissan-skyline-gtr",
-    "glbPath": "/models/nissan-skyline-gtr",
+    "imagePath": "/images/nissan-skyline-gtr.png",
+    "glbPath": "/models/nissan-skyline-gtr.glb",
+    "position": [
+      {
+        "x": 17,
+        "y": 5,
+        "z": 20
+      }
+    ],
     "id": "14"
   },
   {
@@ -117,6 +215,13 @@
     "price": "₱940,000,000",
     "imagePath": "/images/porsche-917k-lm.png",
     "glbPath": "/models/porsche-917k-lm.glb",
+    "position": [
+      {
+        "x": 17,
+        "y": 5,
+        "z": 20
+      }
+    ],
     "id": "15"
   },
   {
@@ -125,6 +230,13 @@
     "price": "₱1,360,000",
     "imagePath": "/images/rolls-royce-silver-shadow.png",
     "glbPath": "/models/rolls-royce-silver-shadow.glb",
+    "position": [
+      {
+        "x": 17,
+        "y": 5,
+        "z": 20
+      }
+    ],
     "id": "16"
   }
 ]
