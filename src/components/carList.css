@@ -1,8 +1,8 @@
 .car-list {
   position: absolute;
-  bottom: 10px;
+  bottom: 0;
   height: 22vh;
-  width: 100vw;
+  width: 99vw;
   overflow-x: auto;
   scrollbar-width: none;
   display: flex;

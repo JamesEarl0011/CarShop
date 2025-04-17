@@ -11,7 +11,7 @@ import {
 } from "@react-three/drei";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 
-const CarShowcase = ({ car }) => {
+const CarShowcase = ({ car, onAddToCart }) => {
   let [x, setX] = useState(car.position.x);
   let [y, setY] = useState(car.position.y);
   let [z, setZ] = useState(car.position.z);
@@ -40,33 +40,39 @@ const CarShowcase = ({ car }) => {
   return (
     <>
       <div className="car-details">
-        <h2>{car.name}</h2>
-        <p>{car.description}</p>
-        <p>Price: {car.price}</p>
+        <center>
+          <div className="content">
+            <h2>{car.name}</h2>
+            <p>{car.description}</p>
+            <h3>Price: {car.price}</h3>
+            <button onClick={() => onAddToCart(car)}>Buy Now</button>
+          </div>
+        </center>
       </div>
       <div
         className="car-showcase"
         style={{
-          width: "100%",
+          width: "68vw",
           height: "78vh",
           position: "absolute",
           top: "0",
-          left: "0",
+          left: "31vw",
         }}
       >
         <Canvas
           camera={{
-            position: [x, y, z],
+            position: [20, 10, 5, 10],
+            scale: 100,
             fov: 50,
             near: 0.1,
-            far: 700,
+            far: 10,
           }}
         >
           <React.Suspense fallback={<Loader />}>
-            <ambientLight intensity={0.3} color="#ffffff" />
+            <ambientLight intensity={1} color="#000" />
             <directionalLight
               position={[10, 20, 10]}
-              intensity={2}
+              intensity={5}
               castShadow
               shadow-mapSize-width={2048}
               shadow-mapSize-height={2048}
@@ -81,19 +87,16 @@ const CarShowcase = ({ car }) => {
 
             <Environment preset="city" />
 
-            <Bounds fit margin={1.2}>
+            <Bounds fit margin={1}>
               <Model />
             </Bounds>
 
             <OrbitControls
-              enableZoom={true}
+              enableZoom={false}
               enablePan={false}
               enableRotate={true}
-              zoomSpeed={0.6}
-              rotateSpeed={0.8}
+              rotateSpeed={0.7}
               target={[0, 0, 0]}
-              minDistance={10}
-              maxDistance={30}
               screenSpacePanning={false}
               panSpeed={0}
             />
