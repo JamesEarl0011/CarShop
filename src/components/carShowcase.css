@@ -18,8 +18,10 @@
   width: 80%;
 }
 .content h2 {
-  font-family: "Pinyon Script", cursive;
+  font-family: "Cormorant", serif;
+  font-weight: bolder;
   font-size: 1.5em;
+  border-bottom: 1px solid rgba(255, 204, 0, 0.8);
 }
 .content p {
   font-family: "Cormorant", serif;
@@ -28,7 +30,7 @@
 }
 .content h3 {
   font-family: "Cormorant", serif;
-  font-size: 1.2em;
+  font-size: 1.35em;
   color: #00ca0a;
   text-align: left;
 }

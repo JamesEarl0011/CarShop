@@ -3,14 +3,35 @@
   bottom: 1.5vh;
   height: 22vh;
   width: 99vw;
-  overflow-x: auto;
-  scrollbar-width: none;
   display: flex;
   flex-direction: row;
   gap: 10px;
-  margin-bottom: -10px;
   background-color: #1d0205;
+  overflow-x: auto;
+  padding-top: 8px; /* Space for the scrollbar */
+  scrollbar-gutter: stable;
 }
+
+/* Elegant scrollbar styling */
+.car-list::-webkit-scrollbar {
+  height: 6px;
+  background-color: #340407;
+  border-radius: 10px;
+}
+
+.car-list::-webkit-scrollbar-thumb {
+  background-color: #fcc68cd7;
+  border-radius: 10px;
+  border: 1px solid #340407;
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+.car-list::-webkit-scrollbar-track {
+  background-color: #340407;
+  border-radius: 10px;
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
 .card {
   flex: 0 0 auto;
   position: relative;
@@ -22,6 +43,7 @@
   overflow: hidden;
   cursor: pointer;
   box-shadow: 3px 3px 5px #2e2e2e80;
+  font-family: "Cormorant", serif;
 }
 
 .card::before {
