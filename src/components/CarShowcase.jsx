@@ -12,20 +12,16 @@ import {
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 
 const CarShowcase = ({ car, onAddToCart }) => {
-  let [x, setX] = useState(car.position.x);
-  let [y, setY] = useState(car.position.y);
-  let [z, setZ] = useState(car.position.z);
-
-  function handlePosition() {
-    setX(car.position.x);
-    setY(car.position.y);
-    setZ(car.position.z);
-  }
-
   function Loader() {
-    handlePosition();
     const { progress } = useProgress();
-    return <Html center>{progress}% loaded</Html>;
+    return (
+      <Html
+        center
+        style={{ width: "120px", fontFamily: "Cormorant", fontSize: "1.5em" }}
+      >
+        {Math.round(progress)}% loaded
+      </Html>
+    );
   }
 
   const Model = () => {
@@ -33,7 +29,7 @@ const CarShowcase = ({ car, onAddToCart }) => {
     return <primitive object={gltf.scene} />;
   };
 
-  if (!car || !car.position) {
+  if (!car) {
     return <div>No car selected</div>;
   }
 
@@ -44,7 +40,7 @@ const CarShowcase = ({ car, onAddToCart }) => {
           <div className="content">
             <h2>{car.name}</h2>
             <p>{car.description}</p>
-            <h3>Price: {car.price}</h3>
+            <h3>Price: ₱{car.price.toLocaleString()}</h3>
             <button onClick={() => onAddToCart(car)}>Buy Now</button>
           </div>
         </center>
@@ -53,7 +49,7 @@ const CarShowcase = ({ car, onAddToCart }) => {
         className="car-showcase"
         style={{
           width: "68vw",
-          height: "78vh",
+          height: "70vh",
           position: "absolute",
           top: "0",
           left: "31vw",
@@ -61,11 +57,10 @@ const CarShowcase = ({ car, onAddToCart }) => {
       >
         <Canvas
           camera={{
-            position: [20, 10, 5, 10],
-            scale: 100,
-            fov: 50,
+            position: [0, -50, 0],
+            fov: 75,
             near: 0.1,
-            far: 10,
+            far: 50,
           }}
         >
           <React.Suspense fallback={<Loader />}>
@@ -92,13 +87,14 @@ const CarShowcase = ({ car, onAddToCart }) => {
             </Bounds>
 
             <OrbitControls
-              enableZoom={false}
+              enableZoom={true}
               enablePan={false}
               enableRotate={true}
               rotateSpeed={0.7}
               target={[0, 0, 0]}
               screenSpacePanning={false}
-              panSpeed={0}
+              minDistance={15}
+              maxDistance={30}
             />
           </React.Suspense>
         </Canvas>

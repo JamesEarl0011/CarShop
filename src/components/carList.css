@@ -1,6 +1,6 @@
 .car-list {
   position: absolute;
-  bottom: 0;
+  bottom: 1.5vh;
   height: 22vh;
   width: 99vw;
   overflow-x: auto;
@@ -9,6 +9,7 @@
   flex-direction: row;
   gap: 10px;
   margin-bottom: -10px;
+  background-color: #1d0205;
 }
 .card {
   flex: 0 0 auto;
@@ -16,11 +17,11 @@
   bottom: 0;
   width: 250px;
   height: 150px;
-  background: #191919;
+  background: #340407;
   border-radius: 20px;
   overflow: hidden;
   cursor: pointer;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 5px #2e2e2e80;
 }
 
 .card::before {
@@ -29,7 +30,7 @@
   top: -50%;
   width: 250px;
   height: 165px;
-  background: #ffce00;
+  background: #fcc68c;
   transform: skewY(345deg);
   transition: 0.5s;
 }

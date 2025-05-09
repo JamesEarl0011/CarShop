@@ -1,16 +1,26 @@
 body {
+  user-select: none;
   max-width: 100vw;
-  max-height: 100vh;
-  height: 100%;
+  min-height: 100vh;
   width: 100%;
-  scrollbar-width: none;
+  scrollbar-width: thin;
   overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-y: auto;
 }
+
 body::-webkit-scrollbar {
-  display: none;
-  -ms-overflow-style: none;
+  width: 8px;
 }
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(155, 155, 155, 0.5);
+  border-radius: 4px;
+}
+
 .app {
   display: flex;
   flex-direction: column;
@@ -41,11 +51,9 @@ body::-webkit-scrollbar {
   overflow-x: auto;
   width: 100%;
   padding: 10px;
-  background-color: #1a1a1a;
 }
 
 .car-list div {
-  margin: 0 10px;
   cursor: pointer;
 }
 
@@ -59,16 +67,93 @@ body::-webkit-scrollbar {
   position: fixed;
   top: 20px;
   right: 20px;
-  padding: 10px 20px;
-  background: #007bff;
+  padding: 12px;
+  background: #1d0205;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 12px;
   cursor: pointer;
   z-index: 1001;
-  font-size: 16px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .cart-toggle:hover {
-  background: #0056b3;
+  background: #ffc68c;
+  color: #1d0205;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.cart-badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: #ffc68c;
+  color: #1d0205;
+  border-radius: 50%;
+  padding: 4px;
+  min-width: 22px;
+  height: 22px;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  border: 2px solid #1d0205;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-toggle:hover .cart-badge {
+  background: #1d0205;
+  color: #ffc68c;
+  border-color: #ffc68c;
+  transform: scale(1.1);
+}
+
+.not-found-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 2rem;
+  font-family: "Cormorant", serif;
+}
+
+.not-found-container p {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  color: #ffeedd;
+}
+
+.not-found-container p:first-child {
+  font-family: "Luxurious Script", cursive;
+  font-size: 3rem;
+  color: #fcc68c;
+}
+
+.not-found-container a {
+  color: #fcc68c;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-family: "Luxurious Script", cursive;
+  font-size: 2.5rem;
+}
+
+.not-found-container a:hover {
+  color: #ffb366;
+  text-decoration: underline;
 }
